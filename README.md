@@ -11,12 +11,20 @@ Creare un repo GitHub di nome VLSM e compilare il relativo README.md prevedendo:
 
 1 Prima di tutto bisogna fare la tabella con tutti i dati necessari per poterla rappresentare graficamente con le seguenti notazioni:
 
-![1](https://user-images.githubusercontent.com/120628724/235115210-0ed6c4b4-5bf0-42ef-a3de-afbde4e2256c.PNG)
-
-2 Nel mio caso nella colonna del # ho messo in ordine decrescente le varie sottoreti
-
-![2](https://user-images.githubusercontent.com/120628724/235115424-7f39e177-ea01-4a33-85f5-883e200a6e0d.PNG)
-
-3 Nella colonna "Group Size" ho assegnato alla sottorete un 
-
 ![Tabella VLSM](https://user-images.githubusercontent.com/120628724/235103733-292e6c56-0c8c-44fb-b71d-79b30ed0cbc7.PNG)
+
+ Nel mio caso nella colonna del # ho messo in ordine decrescente le varie sottoreti
+ 
+ Nella colonna "Group Size" ho assegnato alla sottorete un numero di Indirizzi Ip
+ 
+ Nella colonna "HOST ID" ho assegnato il primo indirizzo della sottorete come indentidicativo del dispositivo
+ 
+ Nella colonna "BROADCAST ID" ho assegnato l'ultimo indirizzo ip della sottorete che serve per mandare un messaggio a tutti i dipsositivi compresi nella sottorete
+ 
+ Nella colonna "CIDR" (Classless Inter-Domain Routing) ho dato una quantità definita di indirizzi ip per quanto ne avesse bisogno la sottorete
+ 
+ Nella colonna "GATEWAY" ho assegnato il penultimo indirizzo ip della nostra sottorete e che ci serve appunto per farci uscire dalla nostra rete attuale
+ 
+ Nella colonna "RANGE HOST" ho semplicemnete inserito il numero di ip che possono essere utilizatti dai dispositivi che utilizzeremo
+
+
